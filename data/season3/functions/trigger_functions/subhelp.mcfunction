@@ -1,0 +1,1 @@
+# execute if score @s help matches 2 run tellraw

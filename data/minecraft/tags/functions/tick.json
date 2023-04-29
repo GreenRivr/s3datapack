@@ -1,0 +1,16 @@
+{
+    "values": [
+        "season3:timecounter",
+        "season3:bossbarcounter",
+        "season3:bantimer",
+        "season3:id-assign",
+        "season3:triggers/bossbartrigger",
+        "season3:triggers/statstrigger",
+        "season3:triggers/guidebooktrigger",
+        "season3:triggers/helptrigger",
+        "season3:triggers/balancetrigger",
+        "season3:triggers/daytrigger",
+        "season3:multiplier",
+        "season3:playtimecounter"
+    ]
+}

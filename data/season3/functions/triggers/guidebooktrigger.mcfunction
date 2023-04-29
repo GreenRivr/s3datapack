@@ -1,0 +1,3 @@
+scoreboard players enable @a guidebook
+execute as @a if score @s guidebook matches 1.. run tellraw @s ["",{"text":"Guide Book","bold":true,"underlined":true,"color":"gold"},"\n","- ",{"text":"Google Docs","underlined":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://docs.google.com/document/d/1Vftrd6V3lQVxz0hAyTSGng58Jx3AiVJx/edit?usp=sharing&ouid=109996412406142517087&rtpof=true&sd=true"},"hoverEvent":{"action":"show_text","contents":["Click to go to the link of the Google Docs of the Guide Book"]}}," (Click to go to the page)"]
+scoreboard players set @a guidebook 0

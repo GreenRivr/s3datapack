@@ -1,0 +1,2 @@
+tellraw @s ["","Congratulations! Your Point Multiplier is now ",{"text":"x","color":"gold"},{"score":{"name":"@s","objective":"multipliera"},"color":"yellow"},{"text":".","color":"yellow"},{"score":{"name":"@s","objective":"multiplierb"},"color":"yellow"}," (Lasts until day ",{"score":{"name":"@s","objective":"multiplyuntil"},"color":"dark_red"},")"]
+schedule clear season3:buymultiplier-ann

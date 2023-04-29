@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": {
+                  "type": "minecraft:uniform",
+                  "min": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  },
+                  "max": 2
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:empty"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:1,Duration:200},{Id:9,Duration:200},{Id:23,Amplifier:1,Duration:4},{Id:6}],CustomPotionColor:12672860}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Powers the Crystal",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Crystal Elixir",
+                "color": "gold",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 10
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "min": 5,
+                    "max": 7
+                  }
+                },
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "min": 7,
+                    "max": 10
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:baked_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:packed_ice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,7 @@
         "season3:triggers/helptrigger",
         "season3:triggers/balancetrigger",
         "season3:triggers/daytrigger",
+        "season3:triggers/toggletipschange",
         "season3:multiplier",
         "season3:playtimecounter"
     ]

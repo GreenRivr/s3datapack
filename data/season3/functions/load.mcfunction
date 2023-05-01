@@ -123,6 +123,6 @@ scoreboard objectives add bossbar trigger
 scoreboard objectives add guidebook trigger
 scoreboard objectives add balance trigger
 scoreboard objectives add day trigger
-scoreboard objectives add toggletips trigger
+# scoreboard objectives add toggletips trigger
 # money
 scoreboard objectives add money dummy "Money"

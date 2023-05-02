@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{pages:[\"[\\\"\\\",{\\\"text\\\":\\\"WELCOME TO THE SERVER!\\\",\\\"bold\\\":true,\\\"color\\\":\\\"gold\\\"},\\\"Welcome to the Server! This is what you should do, \\\",{\\\"selector\\\":\\\"@s\\\",\\\"color\\\":\\\"yellow\\\"},\\\"\\\\n\\\",\\\"When you enter the world, do what you would normally do in regular Survival. But look at the bar above you, check it's colour. If it's blue, it's the Flourishing Season. If it's red, it's the Withering Season.\\\"]\",\"[\\\"\\\",\\\"What's the difference between them? You can read the Guide Book section which explains that: \\\",{\\\"text\\\":\\\"Guide Book\\\",\\\"underlined\\\":true,\\\"color\\\":\\\"gold\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://docs.google.com/document/d/1Vftrd6V3lQVxz0hAyTSGng58Jx3AiVJx/edit?usp=sharing&ouid=109996412406142517087&rtpof=true&sd=true\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"Click!\\\"]}},\\\"\\\\n\\\",\\\"\\\\n\\\",\\\"After you're done, read the rules. Remember, not following the rules can get you a ban:\\\",\\\"\\\\n\\\",{\\\"text\\\":\\\"Server Rules\\\",\\\"underlined\\\":true,\\\"color\\\":\\\"gold\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"open_url\\\",\\\"value\\\":\\\"https://docs.google.com/document/d/12i3-fC4yYZT03duVBJ9UUoiOGXOFFysgnX4eSzERphM/edit?usp=sharing\\\"},\\\"hoverEvent\\\":{\\\"action\\\":\\\"show_text\\\",\\\"contents\\\":[\\\"Click!\\\"]}}]\"],title:\"New Player's Guide Book\",author:The Crystal}"
+    }
+  ]
+  

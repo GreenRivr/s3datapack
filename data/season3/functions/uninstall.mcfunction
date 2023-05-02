@@ -1,3 +1,4 @@
+scoreboard objectives remove accept
 scoreboard objectives remove announcement
 scoreboard objectives remove balance
 scoreboard objectives remove bantimer
@@ -27,6 +28,7 @@ scoreboard objectives remove timeplayedmin
 scoreboard objectives remove timeplayedsec
 scoreboard objectives remove totaldeath
 scoreboard objectives remove totalkill
+scoreboard objectives remove toggletips
 bossbar remove flourishing13
 bossbar remove flourishing14
 bossbar remove flourishing15
@@ -43,3 +45,9 @@ bossbar remove withering23
 bossbar remove withering24
 bossbar remove withering25
 bossbar remove withering26
+tag @a remove newplayers
+tag @a remove multiplieractive
+tag @a remove notbanned
+tag @a remove addid
+tag @a remove baldisplay
+tag @a remove statsdisplay

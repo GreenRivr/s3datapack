@@ -123,6 +123,11 @@ scoreboard objectives add bossbar trigger
 scoreboard objectives add guidebook trigger
 scoreboard objectives add balance trigger
 scoreboard objectives add day trigger
+scoreboard objectives add accept trigger
 # scoreboard objectives add toggletips trigger
 # money
 scoreboard objectives add money dummy "Money"
+# server stuff
+gamerule spawnRadius 2
+setworldspawn 8 74 -8
+worldborder set 400

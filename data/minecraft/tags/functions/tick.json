@@ -12,6 +12,7 @@
         "season3:triggers/daytrigger",
         "season3:triggers/toggletipschange",
         "season3:multiplier",
+        "season3:newplayers",
         "season3:playtimecounter"
     ]
 }
